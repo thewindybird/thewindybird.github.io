@@ -1,0 +1,827 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background opt.jpg");
+    background-size: cover;
+    font-family: Monserrat, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    list-style: none;
+    color: darkgreen;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+}
+h3 {
+    font-size: 14px;
+    color: black;    
+}
+
+#container {
+    background-color: beige;
+    width: 1200px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 10px;
+}
+/* top nav background styling*/
+
+.topnav {
+    background-color: #eab776;
+    width: 100%;
+    line-height: 20px;
+    float: right;
+}
+/* top nav row styling*/
+.topnav a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    float: right;
+    display: block;
+    list-style: none;
+}
+/*top nav list styling*/
+.top nav ul li {
+    float: right;
+    display: block;
+    list-style: none;
+    text-decoration: none;   
+  /*  position: relative;*/
+    text-decoration: none;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: monserrat;
+    color: black;
+    font-size: 14px;
+    padding: 14px;
+    text-decoration: none;
+} 
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f2db7a;
+    padding; 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius; 4px;
+}
+
+.topnav ul li ul li a; hover {
+    background-color: bisque;
+}
+
+
+.flex-container {
+    display: flex;
+/*  background-color: darkseagreen; */
+    justify-content: center;
+    clear: both;
+    width: auto;
+}
+.slider_image{
+    width: 70%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: darkcyan;
+    padding: 15px;
+    margin: 20px;
+}
+/*
+.carousel-wrapper{
+    height:800px;
+    position:relative;
+    width:800px;
+    margin:0 auto;
+}
+/*
+.carousel-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;    
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);   
+}
+
+.arrow-next{
+    right:30px;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.light{
+    color:white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow{
+        background-size: 10px;
+        background-position: 10px 50px;   
+    } 
+}
+
+.item-1{
+    z-index: 2;
+    opacity: 1;
+    background: url('../IMAGES/Main-Juics-pic-_OPT.jpg');
+    background-size:cover;
+}
+.item-2{
+    background: url('../IMAGES/Main-Juics-pic-_OPT.jpg');
+    background-size:cover;  
+}
+
+.item-3{
+   background: url('../IMAGES/SheridanReview_OPT.jpg');
+    background-size:cover;
+}
+*:target ~ .item-1{
+    opacity:0;
+}
+#item-1:target ~ .item-1{
+    opacity: 1;
+}
+#item-2:target ~ .item-2, #item-3:target ~ .item-3{
+    z-index: 3;
+    opacity: 1;
+}*/
+
+
+
+
+
+
+.flex-container > div{
+    color: black;
+    width: auto;
+    margin: 25px;
+    text-align: center;
+    line-height: 28px; 
+    font font-size: 24px;
+    height: 250px;
+}
+
+.flex container {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container > div { 
+    background-color: darkcyan;
+    color: brown;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.footer{
+   text-align: center; 
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~about me ~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background opt.jpg");
+    background-size: cover;
+    font-family: Monserrat, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    list-style: none;
+    color: darkgreen;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+}
+h3 {
+    font-size: 14px;
+    color: black;    
+}
+
+#container {
+    background-color: beige;
+    width: 1200px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 10px;
+}
+/* top nav background styling*/
+
+.topnav {
+    background-color: #eab776;
+    width: 100%;
+    line-height: 20px;
+    float: right;
+}
+/* top nav row styling*/
+.topnav a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    float: right;
+    display: block;
+    list-style: none;
+}
+/*top nav list styling*/
+.top nav ul li {
+    float: right;
+    display: block;
+    list-style: none;
+    text-decoration: none;   
+  /*  position: relative;*/
+    text-decoration: none;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: monserrat;
+    color: black;
+    font-size: 14px;
+    padding: 14px;
+    text-decoration: none;
+} 
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f2db7a;
+    padding; 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius; 4px;
+}
+
+.topnav ul li ul li a; hover {
+    background-color: bisque;
+}
+
+
+.flex-container {
+    display: flex;
+
+    background-color: darkseagreen
+    justify-content: center;
+    clear: both;
+    width: auto;
+}
+.slider_image{
+    width: 70%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: darkcyan;
+    padding: 15px;
+    margin: 20px;
+}
+
+.flex-container > div{
+    color: black;
+    width: auto;
+    margin: 25px;
+    text-align: center;
+    line-height: 28px; 
+    font font-size: 24px;
+    height: 250px;
+}
+
+.flex container {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container > div { 
+    background-color: darkcyan;
+    color: brown;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.footer{
+   text-align: center; 
+}
+
+/*~~~~~~~~~~~~SHOP PAGE~~~~~~~~~~~~~*/
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background opt.jpg");
+    background-size: cover;
+    font-family: Monserrat, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    list-style: none;
+    color: darkgreen;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: black;
+    font size: 24px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+}
+h3 {
+    font-size: 14px;
+    color: black;    
+}
+
+#Shopcontainer {
+    background-color: beige;
+    width: 1200px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Shopheader {
+    align-content: center;
+    overflow: hidden;
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.Shopcontent {
+    padding: 10px;
+}
+/* top nav background styling*/
+
+.Shoptopnav {
+    background-color: #eab776;
+    width: 100%;
+    line-height: 20px;
+    float: right;
+    display: block;
+}
+/* top nav row styling*/
+.Shoptopnav a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.Shoptopnav ul {
+    float: right;
+    display: block;
+}
+/*top nav list styling*/
+.Shoptop nav ul li {
+    float: right;
+    list-style: none;
+    text-decoration: none;   
+    position: relative;
+}
+
+#Shopnav ul li a {
+    display: block;
+    font-family: monserrat;
+    color: black;
+    font-size: 14px;
+    padding: 20px 14px;
+}
+
+.Shoptopnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    text-decoration: none;
+}
+
+.Shoptopnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f2db7a;
+    padding; 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+.Shoptopnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.Shoptopnav ul li ul li a {
+    border-radius; 4px;
+}
+
+.Shoptopnav ul li ul li a; hover {
+    background-color: bisque;
+}
+.Shopflex-container{
+  display: flex;
+    flex-wrap: flex;
+    background-color: darkseagreen;
+    justify-content: center;
+    clear: both;
+    width: auto;
+    justify-content: center;
+}
+.Shopflex-container > div{
+    width:1000px;
+    color: black;
+    margin: 10x;
+    text-align: center;
+    line-height: 26px;
+    font-size: 23px;
+    
+    
+}
+.funflavors row1{
+    margin-left:10px;
+    margin-top; 0px;
+    Height: 100px;
+}
+.funflavors-row1 img{
+    margin-top:10px;
+    height:auto;
+}
+.funflavors-text h1{
+    color: brown;
+    font-size: 23px;
+    width:100%;
+    font-family: monserrat, sans-serif;
+    line-height: 28px;
+    padding: inherit;
+    text-align: center;
+}
+
+.Shopflex-container2{
+  display: flex;
+    flex-wrap: flex;
+    background-color: darkseagreen;
+    justify-content: center;
+    clear: both;
+    width: auto;
+}
+.Shopflex-container2 > div{
+    width:1000px;
+    color: black;
+    margin: 10x;
+    text-align: center;
+    line-height: 26px;
+    font-size: 23px;
+}
+.colorfree-row2{
+    margin-right:10px;
+    margin-top; 0px;
+    Height: 100px;
+}
+.colorfree-row2 img{
+    margin-top:10px;
+    height:auto;
+}
+.colorfree-text h1{
+    color: brown;
+    font-size: 23px;
+    width:100%;
+    font-family: monserrat, sans-serif;
+    line-height: 26px;
+    padding: inherit;
+    text-align: center;
+}
+.chooseflavor ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    text-decoration: none;
+}
+
+.chooseflavor ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f2db7a;
+    padding; 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+.chooseflavor ul li ul li {
+    padding: 8px 14px;
+}
+
+.chooseflavor ul li ul li a {
+    border-radius; 4px;
+}
+
+.chooseflavor ul li ul li a; hover {
+    background-color: bisque;
+}
+
+.footer{
+    margin-top: 450px;
+   text-align: center; 
+    justify-content: center;
+}
+
+/*~~~~~~~~~~account~~~~~~~~~~*/
+
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background opt.jpg");
+    background-size: cover;
+    font-family: Monserrat, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    list-style: none;
+    color: darkgreen;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+}
+h3 {
+    font-size: 14px;
+    color: black;    
+}
+
+#Accountcontainer {
+    background-color: beige;
+    width: 1200px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Accountheader {
+    overflow: hidden;
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Accountcontent {
+    padding: 10px;
+}
+/* top nav background styling*/
+
+.Accounttopnav {
+    background-color: #eab776;
+    width: 100%;
+    line-height: 20px;
+    float: right;
+}
+/* top nav row styling*/
+.Accounttopnav a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.Accounttopnav ul {
+    float: right;
+    display: block;
+    list-style: none;
+}
+/*top nav list styling*/
+.Accounttop nav ul li {
+    float: right;
+    display: block;
+    list-style: none;
+    text-decoration: none;   
+  /*  position: relative;*/
+    text-decoration: none;
+}
+
+#Accountnav ul li a {
+    display: block;
+    font-family: monserrat;
+    color: black;
+    font-size: 14px;
+    padding: 14px;
+    text-decoration: none;
+} 
+
+.Accounttopnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.Accounttopnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f2db7a;
+    padding; 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+.Accounttopnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.Accounttopnav ul li ul li a {
+    border-radius; 4px;
+}
+
+.Accounttopnav ul li ul li a; hover {
+    background-color: bisque;
+}
+
+
+.Accountflex-container {
+    display: flex;
+/*  background-color: darkseagreen; */
+    justify-content: center;
+    clear: both;
+    width: auto;
+}
+.cartlogo{
+    width: 70%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: bisque;
+    padding: 15px;
+    margin: 20px;
+}
+
+.Accountflex-container > div{
+    color: black;
+    width: 1200px;
+    margin: 25px;
+    text-align: center;
+    line-height: 26px; 
+    font font-size: 24px;
+    height: 250px;
+}
+
+.Accpuntflex container {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    clear: both;
+}
+
+.Accountflex-container > div { 
+    background-color: bisque;
+    color: brown;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.Accountflex-container > div { 
+    background-color: bisque;
+    color: brown;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+.footer{
+   text-align: center; 
+}
+
+.Reviewflex-container > div { 
+    background-color: #baba81;
+    color: brown;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+
